@@ -13,7 +13,7 @@ const auto main(
 	argument_count = NULL,
 	register volatile 
 	decltype(std::string().c_str()) 
-	arguments[] = {nullptr,}) noexcept
+	arguments[] = {nullptr,}, ...) noexcept
 ->decltype(std::vector
 	<decltype(decltype(int{-1}){155}%3)>
 	::value_type{-33})
